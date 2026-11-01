@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iphone-photo-copier"
+version = "0.1.0"
+description = "Copy iPhone camera media over USB or extract it from a local Apple backup"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "PolyForm-Noncommercial-1.0.0"
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Win32 (MS Windows)",
+  "Intended Audience :: End Users/Desktop",
+  "Operating System :: Microsoft :: Windows :: Windows 10",
+  "Operating System :: Microsoft :: Windows :: Windows 11",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+  "pymobiledevice3>=11.49,<12",
+  "pyiosbackup==0.2.4",
+  "PySide6-Essentials>=6.10,<6.13",
+]
+
+[project.scripts]
+iphone-photo-copier = "iphone_copy.gui:main"
+
+[tool.setuptools]
+packages = ["iphone_copy"]
