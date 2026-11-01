@@ -1,6 +1,7 @@
 # iPhone Photo Copier
 
-A free for noncommercial use, local Windows GUI for copying iPhone photos, videos, and `.AAE` edit sidecars to a normal PC folder. It reads the iPhone through Apple's USB service, so it can work even when the phone is missing from File Explorer. It can also extract camera media from a local Apple Devices or iTunes backup.
+A free for noncommercial use, local Windows GUI for copying iPhone photos, videos, and `.AAE` edit sidecars to a normal PC folder. It reads the iPhone through Apple's USB service, so it can work even when the phone is missing from Windows File Explorer. 
+It can also extract camera media from a local backup made by [Apple Devices](https://apps.microsoft.com/detail/9np83lwlpz9k?hl=fr-FR&gl=CH) or iTunes.
 
 The app copies files. It never deletes media from the phone or changes a backup.
 
