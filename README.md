@@ -5,6 +5,8 @@ It can also extract camera media from a local backup made by [Apple Devices](htt
 
 The app copies files. It never deletes media from the phone or changes a backup.
 
+AI Disclosure : This project was built with the help of GPT-6 Sol. 
+
 ## Requirements
 
 | Requirement | Details |
