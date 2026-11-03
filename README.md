@@ -21,7 +21,7 @@ Dependencies are declared once in [`pyproject.toml`](pyproject.toml). `requireme
 
 ## Install and run
 
-1. Download or clone this repository and extract it to a regular folder. Do not copy the author's virtual environment or a phone backup into the repository.
+1. Download or clone this repository and extract it to a regular folder. 
 2. Install Python and Apple Devices or iTunes as described above.
 3. Connect the iPhone by USB. Unlock it and tap **Trust** or **Allow** if prompted.
 4. Double-click `launch.bat`. The first launch creates `.venv` and installs dependencies. Later launches reuse it.
